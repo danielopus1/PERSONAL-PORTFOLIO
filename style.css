@@ -1,0 +1,172 @@
+  .topnav{
+    overflow: hidden;
+    background-color: #04AA6D;
+    color: #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    min-width: min-content;
+    min-height: max-content;
+    padding: 15px 17px;
+    color: #fff;
+    font-size: 35px;
+
+  }
+
+  .topnav a{
+        float: right;
+        display: flex;
+        color: white;
+        text-align: center;
+        justify-content: space-between;
+        left: 50%;
+        margin-right: 40px;
+        padding: 40px;
+        font-weight: bold;
+        font: 1em sans-serif;
+        text-decoration: none;
+        font-size: x-large;
+  }
+
+  .topnav a.split{
+    float: left;
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffffff;
+    color: #04AA6D;
+    text-align: center;
+    justify-content: left;
+    padding: 35px;
+    margin-right: 250px;
+    font-weight: bolder;
+    font-size: xx-large;
+    
+  }
+  
+
+  /* Container holding the image and the text */
+  .container {
+    position: relative;
+    text-align: center;
+    background-size: cover;
+    scroll-margin-inline-start: 100px;
+    color: white;
+  }
+
+  /*body holding the image and text*/
+    body{
+    position: absolute;
+    text-align: center;
+    font: 1em sans-serif;
+    background-size: cover;
+    justify-content: center;
+    scroll-margin-inline-start: 100px;
+    background-color: rgb(39, 49, 59);
+    color: white;
+    }
+
+  /* Centered text */
+  .centered {
+    position: absolute;
+    color: #ffffff;
+    font-size: 66.5px;
+    top: 40%;
+    left: 50%;
+    text-align: center;
+    font-weight: bolder;
+    transform: translate(-50%, -50%);
+  }
+
+   .bottom {
+    color: #04AA6D;
+    position: absolute;
+    font: 1em sans-serif;
+    font-style: oblique;
+    font-size: 40px;
+    top: 49%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .Icon .active{
+    margin: 30px;
+    padding: 20px;
+    font-size: 50px;
+    font: 3em sans-serif;
+  text-align: left;
+  justify-content: left;
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+  }
+
+  .Icon .Git{
+    margin: 30px;
+    padding: 20px;
+    font-size: 50px;
+    font: 3em sans-serif;
+  text-align: center;
+  justify-content: center;
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+  }
+
+  .Icon .Capacitybay{
+    margin: 30px;
+    padding: 20px;
+    font-size: 50px;
+    font: 3em sans-serif;
+  text-align: right;
+  justify-content: right;
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+  }
+
+  .Icon .Whats{
+    margin-top: 30px;
+    padding: 20px;
+    font-size: 50px;
+    font: 3em sans-serif;
+  text-align: left;
+  justify-content: left;
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+  }
+
+  .Icon .Call{
+    margin-top: 30px;
+    padding: 20px;
+    font-size: 50px;
+    font: 3em sans-serif;
+  text-align: center;
+  justify-content: center;
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+  }
+
+  hr {
+    border-top: 1px solid #04ac3c;
+  }
+
+  div.absolute{
+    position: absolute;
+    bottom: 3px;
+    width: 41%;
+    font-weight: bold;
+    font: 1.3em sans-serif;
+    text-align: right;
+  }
+
+  div.side{
+    position: absolute;
+    bottom: 3px;
+    width: 41%;
+    font-weight: bold;
+    font: 1.3em sans-serif;
+    left: 1000px;
+  }
